@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    
+
+/* @media (max-width: 650px) {
+    .box_media {
+        font-size: 0.9rem;
+        padding: 10px;
+        text-align: center;
+    }
+} */
+
+
+
 body {
     background: #dfdcdd;
     line-height: 1.6em; 
@@ -25,7 +35,7 @@ body p {
     display: flex;
     margin-left: 40px;   
 }
-
+/* сменила убрала текст */
 
 .info-text {
     margin-left: 20px;
@@ -152,6 +162,7 @@ a:visited {
 .list li {
     color: rgb(54, 50, 50);
     margin-bottom: 10px;
+    /* border-bottom: 1px solid gray; */
 }
 
 table {
@@ -179,6 +190,13 @@ table {
     background: rgb(243, 220, 236);
 }
 
+/* .table td:nth-child(1), .table td:nth-child(3) {
+    background: #fffeee;
+} */
+
+/* .form h4 {
+    text-align: center;
+} */
 
 .form-row {
     margin-bottom: 10px;
@@ -187,10 +205,12 @@ table {
 }
 
 .form-row .form-group {
-   
+    /* display: inline-block; */
     margin-right: 20px;
     width: 50%;
-   
+    /* width: 46%; */
+    /* width: calc(50% - 20px); */
+}
 
 .form-row .form-group:last-child{
     margin-right: 0;
@@ -198,6 +218,7 @@ table {
 
 .form-group  label {
     display: block;
+    /* дисплей блок перенес строки. удалили вг, потому что отступ теперь лишний */
     font-size: 14px;
     color: #53595e;
 }
@@ -232,3 +253,4 @@ table {
                 
             }
             }
+    
