@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @media (max-width: 650px) {
+    .box_media {
+        font-size: 0.9rem;
+        padding: 10px;
+        text-align: center;
+    }
+} */
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;   
+        
+    }
+    }
+
+body {
+    background: #dfdcdd;
+    line-height: 1.6em; 
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+body p {
+  font-style: italic;
+  color: #53595e;
+   
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 40px;   
+}
+/* сменила убрала текст */
+
+.info-text {
+    margin-left: 20px;
+   
+}
+
+.info-text h2 {
+    margin-bottom: 10px;
+}
+h4 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    
+}
+
+.navbar {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    z-index: 10;
+}
+
+.nav {
+    display: block;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    list-style: none;
+}
+
+li {
+    display: inline-flex;
+    text-align: right;
+    width: 100%;
+}
+
+.card {
+    background: #f7f0f2;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.bg-green {
+    background: #e0efd8;
+    margin-bottom: 20px;
+}
+
+.bg-blue {
+    background: #c3deeb;
+}
+
+.bg-yellow {
+    background: #fcf6e4;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+      
+}
+
+a {
+    color: #111;
+    text-decoration: none;       
+}
+
+a:hover {
+    color: rgb(77, 160, 216);
+    text-decoration: underline;
+    transition: all .2s;
+}
+
+
+a:active {
+    color: rgb(41, 36, 32);
+}
+
+a:visited {
+    color: rgb(90, 86, 86);
+}
+
+.btn {
+    background: rgb(143, 143, 245);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(63, 57, 57);
+}
+
+.list {
+    margin: 0;
+    padding: 0 20px;
+    list-style: inside;    
+}
+
+.list li {
+    color: rgb(54, 50, 50);
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid gray; */
+}
+
+table {
+    padding: 0 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.table td {
+    padding: 10px;
+}
+
+.table td:hover {
+    opacity: 0.8;
+    cursor: pointer;    
+}
+
+.table thead {
+    background: rgb(207, 170, 212);
+}
+
+.table tbody {
+    background: rgb(243, 220, 236);
+}
+
+/* .table td:nth-child(1), .table td:nth-child(3) {
+    background: #fffeee;
+} */
+
+/* .form h4 {
+    text-align: center;
+} */
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: 46%; */
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-group  label {
+    display: block;
+    /* дисплей блок перенес строки. удалили вг, потому что отступ теперь лишний */
+    font-size: 14px;
+    color: #53595e;
+}
+
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+    }
+
+    @media (max-width: 650px) {
+        .form-row {            
+            display: block;        
+        }
+        .form-row .form-group {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
